@@ -27,6 +27,9 @@ login.onclick = (e) => {
     }
   }
 };
+var login = document.getElementById('toRegister');
+
+
 
 // // change course details btn
 // if (localStorage.length == 0) {
@@ -68,19 +71,24 @@ login.onclick = (e) => {
 
 
 
-var userLoggedIn= localStorage.getItem('isLoggedInnn')
-console.log(userLoggedIn)
+// var userLoggedIn= localStorage.getItem('isLoggedInnn')
+// console.log(userLoggedIn)
 
-  if (!userLoggedIn) {
-    // function isLoggedin() {
-    // change btn learn html
-    var learnBtn = document.getElementById('startCourse');
-    learnBtn.style.backgroundColor = '#5fcf80';
-    learnBtn.innerHTML = 'Enroll Now';
-    learnBtn.addEventListener('click', function () {
-      window.location.href = 'forms/login.html';
-     // b_button.style.display= "none";
-    });
+if (localStorage.length == 0) {
+  
+function black() {
+            var elements =
+            document.getElementsByClassName('startCourse');
+            for(var i = 0; i < elements.length; i++) {
+                elements[i].style.backgroundColor = 'green';
+                elements[i].innerHTML='Enroll Now';
+                elements[i].addEventListener('click', function () {
+                  window.location.href = 'forms/login.html';
+            });
+            }
+        }
+black();
+
   } else {
     // hide btn login
     var b_button = document.getElementById('LOOPER');

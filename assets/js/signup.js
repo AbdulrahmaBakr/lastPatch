@@ -53,7 +53,7 @@ function validateInputs() {
     localStorage.setItem('emailValue', emailValue);
     localStorage.setItem('passwordValue', passwordValue);
     localStorage.setItem('password2Value', password2Value);
-    window.location.href = '../course-details.html';
+    window.location.href = '../index.html';
   }
 
   if (usernameValue === '') {

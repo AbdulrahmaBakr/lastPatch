@@ -31,49 +31,6 @@ var login = document.getElementById('toRegister');
 
 
 
-// // change course details btn
-// if (localStorage.length == 0) {
-//   // function isLoggedin() {
-//   // change btn learn html
-//   var learnBtn = document.getElementById('startCourse');
-//   learnBtn.style.backgroundColor = '#5fcf80';
-//   learnBtn.innerHTML = 'Enroll Now';
-//   learnBtn.addEventListener('click', function () {
-//     window.location.href = 'forms/login.html';
-//    // b_button.style.display= "none";
-//   });
-// } else {
-//   // hide btn login
-//   var b_button = document.getElementById('LOOPER');
-//   var k_button = document.getElementById('niGGa');
-//   var h_button = document.getElementById('PooP');
-//   var o_button = document.getElementById('ShiiT');
-//   var p_button = document.getElementById('letsGo');
-//  // var b_button = document.createElement('display');
-//   //b_button.innerHTML = 'Logout';
-//   //b_button.setAttribute('type', 'button');
-//  // b_button.setAttribute('class', 'btn btn-primary');
-//   //b_button.setAttribute('style', 'display : none');
-//   b_button.style.display= "none";
-//   k_button.innerHTML="Welcome "+ localStorage.getItem("username")+" !"
-//   k_button.style.display="block";
-//   h_button.style.display="block";
-//   o_button.style.display="none";
-//   p_button.innerHTML="Keep GOING !!! You are the Best "+localStorage.getItem("username")
-//   p_button.style.display="block";
-
-
-//   // logout
-//   document.getElementById('logoutBtn').addEventListener('click', () => {
-//     localStorage.removeItem();
-//     window.location.href('index.html');
-//   });
-
-
-
-// var userLoggedIn= localStorage.getItem('isLoggedInnn')
-// console.log(userLoggedIn)
-
 if (localStorage.length == 0) {
   
 function black() {
@@ -94,25 +51,26 @@ black();
     var b_button = document.getElementById('LOOPER');
     var k_button = document.getElementById('niGGa');
     var h_button = document.getElementById('PooP');
-    var o_button = document.getElementById('ShiiT');
-    var p_button = document.getElementById('letsGo');
-   // var b_button = document.createElement('display');
+    document.getElementById('logoutBtn').style.display="block";
+    if(document.getElementById('letsGo') != null){
+      document.getElementById('letsGo').style.display="none"; }
+    if(document.getElementById('ShiiT') != null){
+      document.getElementById('ShiiT').innerHTML="Keep GOING !!! You are the Best "+localStorage.getItem("username");
+      document.getElementById('ShiiT').style.display="block"}
     //b_button.innerHTML = 'Logout';
     //b_button.setAttribute('type', 'button');
    // b_button.setAttribute('class', 'btn btn-primary');
     //b_button.setAttribute('style', 'display : none');
+   // LogOut_button.style.display="block";
     b_button.style.display= "none";
     k_button.innerHTML="Welcome "+ localStorage.getItem("username")+" !"
     k_button.style.display="block";
     h_button.style.display="block";
-    o_button.style.display="none";
-    p_button.innerHTML="Keep GOING !!! You are the Best "+localStorage.getItem("username")
-    p_button.style.display="block";
-  
+
   
     // logout
     document.getElementById('logoutBtn').addEventListener('click', () => {
-      localStorage.removeItem();
+      window.localStorage.clear();
       window.location.href('index.html');
     });
 

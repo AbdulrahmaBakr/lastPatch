@@ -1,4 +1,4 @@
-const formy = document.getElementById('form');
+let formy = document.getElementById('form');
 const username = document.getElementById('username');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
@@ -53,7 +53,7 @@ function validateInputs() {
     localStorage.setItem('emailValue', emailValue);
     localStorage.setItem('passwordValue', passwordValue);
     localStorage.setItem('password2Value', password2Value);
-    window.location.href = '../course-details.html';
+    window.location.href = '../index.html';
   }
 
   if (usernameValue === '') {

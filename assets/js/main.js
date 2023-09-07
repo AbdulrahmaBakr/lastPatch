@@ -133,10 +133,3 @@
   new PureCounter();
 
 })()
-$(document).ready(function(){
-
-$('#firstModal').on('hidden.bs.modal', function () {
-  $('#video1')[0].pause();
-})
-
-});

@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Contact - Mentor Bootstrap Template</title>
+  <title>Course details</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/favicon_io/apple-touch-icon.png" rel="icon">
+  <link href="assets/img/favicon_io/favicon-32x32.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link
@@ -27,14 +27,13 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/login.css" />
-  <script src="assets/jquery/jquery.js"></script>
+  <script src="jquery/jquery.js"></script>
   <link rel="stylesheet" href="assets/css/quizeStyel.css">
 
 
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
 
 </head>
 
@@ -43,43 +42,25 @@
  <header id="header" class="fixed-top">
   <div class="container d-flex align-items-center">
 
-    <h1 class="logo me-auto"><a href="index.html">Mentor</a></h1>
+    <h1 class="logo me-auto"><a href="index.html">MASA-Learn</a></h1>
     <!-- Uncomment below if you prefer to use an image logo -->
     <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
     <nav id="navbar" class="navbar order-last order-lg-0">
       <ul>
-        <li><a  href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li style="display: none;"><a href="courses.html">Courses</a></li>
-          <li><a href="trainers.html">Stuff</a></li>
-          <li ><a class="active" href="Tracks.html">Tracks</a></li>
-          <li style="display: none"><a href="contact.html">Subjects</a></li>
-          <li style="display: none;"><a href="pricing.html">Pricing</a></li>
-
-        <li id="PooP" style="display: none;" class="dropdown"><a href="#"><span>My Courses</span> <i class="bi bi-chevron-down"></i></a>
-          <ul>
-            <li><a href="contact.html">JavaScript</a></li>
-            <li><a href="Python.html">Python</a></li>
-            <li><a href="C++.html">C++</a></li>
-          </ul>
-        </li>
-        <li><a href="index.html" style="display: none;" id="logoutBtn">Logout</a></li>
-        <!-- <li>
-          <a
-        href="#offcanvasRight"
-        class="btn get-started-btn "
-        data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasRight"
-        aria-controls="offcanvasRight"
-        id="LOOPER"
+        <li class=" nav-item " ><a href="index.html">Home</a></li>
+          <li class=" nav-item"><a href="courses.html">Courses</a></li>
+          <li class=" nav-item"><a href="trainers.html">Trainers</a></li>
+          <li class=" nav-item"><a href="Tracks.html">Tracks</a></li>
+          <li class=" nav-item"><a href="about.html">About</a></li>
+          <li id="PooP" style="display: none;" class="dropdown"><a class="active" href="#"><span>My Courses</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="javas.html">JavaScript</a></li>
+              <li><a href="Bootstrap.html">Bootstrap</a></li>
+              <li><a href="contact.html">jquery</a></li>
+            </ul>
+          </li>
         
-      >
-        Login
-      </a>
-    <span class="badge text-bg-secondary">Welcome</span> 
-        </li> -->
-      
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
@@ -151,7 +132,7 @@
     </div>
     <!-- end Canvas  -->
    
-    
+    <a href="index.html" style="display: none;" id="logoutBtn">Logout</a>
 
   </div>
 </header><!-- End Header -->
@@ -179,9 +160,9 @@
  
 
     <section class="section justify-content-center m-4">
-      <div class="card justify-content-center text-bg-secondary " data-aos="fade-right" >
+      <div style="width: 70%; margin: auto;" class="card justify-content-center text-bg-success " data-aos="fade-right" >
         <div class="card-header">
-          <span><img src="" /></span><span class="font-weight-bold" style="font-size: x-large;">Javascript</span></div>
+          <span><img style=" width:5%;" src="logos/1486640684.svg " /></span><span class="font-weight-bold" style="font-size: x-large;">Javascript</span></div>
         <div class="card-body ">
           
           <h5 class="card-title">Introduction to javascript course</h5>
@@ -197,13 +178,6 @@
             
             <a class="btn btn-outline-secondary" data-bs-toggle="collapse" href="#collapse1" role="button"
               aria-expanded="false" aria-controls="collapseExample"  > Learn</a>
-               <div class="collapse" id="collapse1">
-                <div class="card card-body">
-                  Some placeholder content for the collapse component. This panel is hidden by default but revealed
-                  when the
-                  user activates the relevant trigger.
-                </div>
-                </div>
             <div class="collapse" id="collapse1">
 
               <div class="card card-body">
@@ -211,16 +185,16 @@
                 <br><br>
              
                 
-                <a class="btn btn-success justify-content-center btn-sm startCourse  "style="width: 30rem;  margin-left: auto;margin-right: auto;" data-bs-toggle="modal"
+                <a class="btn btn-success justify-content-center btn-sm  "style="width: 30rem;  margin-left: auto;margin-right: auto;" data-bs-toggle="modal"
                   href="#exampleModalCenter" role="button" aria-expanded="false" aria-controls="collapseExample"
-                   >Start course</a>
+                  id="startCourse">Start course</a>
               </div>
             </div>
           
-           <hr>
-           <!-- <div class="card"> -->
+          <hr>
+          <!-- <div class="card"> -->
             <a class="btn btn-outline-secondary " data-bs-toggle="collapse" href="#collapse2" role="button"
-              aria-expanded="false" aria-controls="collapseExample" >Learn</a>
+              aria-expanded="false" aria-controls="collapseExample" >what is img</a>
             <div class="collapse" id="collapse2">
               <div class="card card-body">
                 Some placeholder content for the collapse component. This panel is hidden by default but revealed
@@ -228,22 +202,11 @@
                 user activates the relevant trigger.
               </div>
             </div>
-            <div class="collapse" id="collapse2">
-
-              <div class="card card-body">
-
-                <br><br>
-             
-                
-                <a class="btn btn-success justify-content-center btn-sm startCourse  "style="width: 30rem;  margin-left: auto;margin-right: auto;" data-bs-toggle="modal"
-                  href="#exampleModalCenter" role="button" aria-expanded="false" aria-controls="collapseExample"
-                   >Start course</a>
-              </div>
-            </div>
-           <hr>
-           <!-- <div class="card"> -->
+          
+          <hr>
+          <!-- <div class="card"> -->
             <a class="btn btn-outline-secondary" data-bs-toggle="collapse" href="#collapse3" role="button"
-              aria-expanded="false" aria-controls="collapseExample">Learn</a>
+              aria-expanded="false" aria-controls="collapseExample">what is img</a>
             <div class="collapse" id="collapse3">
               <div class="card card-body">
                 Some placeholder content for the collapse component. This panel is hidden by default but revealed
@@ -251,40 +214,16 @@
                 user activates the relevant trigger.
               </div>
             </div>
-            <div class="collapse" id="collapse3">
-
-              <div class="card card-body">
-
-                <br><br>
-             
-                
-                <a class="btn btn-success justify-content-center btn-sm startCourse  "style="width: 30rem;  margin-left: auto;margin-right: auto;" data-bs-toggle="modal"
-                  href="#exampleModalCenter" role="button" aria-expanded="false" aria-controls="collapseExample"
-                   >Start course</a>
-              </div>
-            </div>
-           <hr>
-            <!-- <div class="card"> -->
+          
+          <hr>
+          <!-- <div class="card"> -->
             <a class="btn btn-outline-secondary  " data-bs-toggle="collapse" href="#collapse4" role="button"
-              aria-expanded="false" aria-controls="collapseExample">Learn</a>
+              aria-expanded="false" aria-controls="collapseExample">what is img</a>
             <div class="collapse" id="collapse4">
               <div class="card card-body">
                 Some placeholder content for the collapse component. This panel is hidden by default but revealed
                 when the
                 user activates the relevant trigger.
-              </div>
-            </div>
-            <div class="collapse" id="collapse4">
-
-              <div class="card card-body">
-
-                <br><br>
-             
-                
-                   </a>
-                   <a class="btn btn-success justify-content-center btn-sm startCourse   "style="width: 30rem;  margin-left: auto;margin-right: auto;" data-bs-toggle="modal"
-                  href="#exampleModalCenter" role="button" aria-expanded="false" aria-controls="collapseExample"
-                   >Start course</a>
               </div>
             </div>
           </div>

@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Trainers - Mentor Bootstrap Template</title>
+  <title>Trainers </title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/favicon_io/apple-touch-icon.png" rel="icon">
+  <link href="assets/img/favicon_io/favicon-32x32.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -29,68 +29,55 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Mentor
-  * Updated: Jul 27 2023 with Bootstrap v5.3.1
-  * Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+ 
 </head>
 
 <body>
 
   <!-- ======= Header ======= -->
+ 
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html">Mentor</a></h1>
+      <h1 class="logo me-auto"><img class="img-fluid p-1 w-20" src="assets/img/favicon_io/android-chrome-192x192.png " ><a href="index.html">MASA-LEARN</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a  href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li style="display: none;"><a href="courses.html">Courses</a></li>
-          <li><a class="active" href="trainers.html">Stuff</a></li>
-          <li ><a  href="Tracks.html">Tracks</a></li>
-          <li style="display: none;"><a href="contact.html" class=" mx-auto">Subjects</a></li>
-          <li style="display: none;"><a href="pricing.html">Pricing</a></li>
 
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <li class=" nav-item " ><a  href="index.html">Home</a></li>
+          <li class=" nav-item"><a href="courses.html">Courses</a></li>
+          <li class=" nav-item"><a class="active" href="trainers.html">Trainers</a></li>
+          <li class=" nav-item"><a href="Tracks.html">Tracks</a></li>
+          <li class=" nav-item"><a href="about.html">About</a></li>
+          <li id="PooP" style="display: none;" class="dropdown"><a href="#"><span>My Courses</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="javas.html">JavaScript</a></li>
+              <li><a href="Bootstrap.html">Bootstrap</a></li>
+              <li><a href="contact.html">jquery</a></li>
             </ul>
           </li>
-          <li><a href="contact.html">Contact</a></li>
+        
+        
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-       <!-- Canvass -->
+        <!-- Canvass login -->
         <!-- <a href="./forms/signup.html" class="get-started-btn">Get Started</a> -->
         <a
           href="#offcanvasRight"
-          class="btn get-started-btn fs-5"
+          class="btn get-started-btn fs-5 mx-4"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasRight"
           aria-controls="offcanvasRight"
+          id="LOOPER"
+         
         >
           Login
         </a>
+        <h3 id="niGGa" class="badge text-bg-secondary p-1 fs-5 mx-4 " style="display: none;">Welcome</h3>
       </div>
 
       <div
@@ -111,11 +98,12 @@
           ></button>
         </div>
         <div class="offcanvas-body">
+         
           <div class="canvassContainer">
-            <form action="" id="form" class="p-4">
+            <form action="" id="loginform" class="p-4">
               <div class="box">
                 <h1>Login</h1>
-                <!-- <label for="username">Username:</label> -->
+                <!-- <lEmailabel for="username">Username:</lEmailabel> -->
                 <input
                   id="username"
                   name="username"
@@ -129,21 +117,38 @@
                   id="password"
                   name="password"
                   type="password"
-                  placeholder="Enter Password"
+                  placeholder="Enter Passworddddd"
                 />
               </div>
-              <a href="../index.html" type="submit" id="login">Login</a>
+              <a href="./index.html" type="submit" id="login">Login</a>
               <div class="link">
-                <a id="already" href="login.html">Don't Have Account !!</a>
+                <a href="./forms/" class="btn get-started-btn fs-4" id="already"  href="#offcanvasExample" data-bs-toggle="offcanvas" aria-controls="offcanvasExample">Don't Have Account !!</a>
+              </div>
               </div>
             </form>
           </div>
         </div>
       </div>
       <!-- end Canvas  -->
+     
+      <a href="index.html" style="display: none;" id="logoutBtn">Logout</a>
 
     </div>
   </header><!-- End Header -->
+  <!-- start LOGIN -->
+  
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      
+    </div>
+  </div>
+
+  <!-- end login -->
+
 
   <main id="main" data-aos="fade-in">
 

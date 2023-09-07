@@ -96,12 +96,43 @@ h6 {
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
+@media screen and (max-width: 1024px) {
+  #offcanvasRight {
+    width: 50% !important;
+  }
+  #already {
+    font-size: 18px !important;
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #offcanvasRight {
+    width: 50% !important;
+  }
+  #already {
+    font-size: 18px !important;
+    padding: 5px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
+  #already {
+    font-size: 16px !important;
+    padding: 0px;
+  }
 }
-
+@media screen and (max-width: 426px) {
+  #offcanvasRight {
+    width: 100% !important;
+  }
+  #already {
+    font-size: 16px !important;
+    padding: 0px;
+  }
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/

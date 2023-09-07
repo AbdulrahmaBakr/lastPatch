@@ -65,6 +65,8 @@ black();
     b_button.style.display= "none";
     k_button.innerHTML="Welcome "+ localStorage.getItem("username")+" !"
     k_button.style.display="block";
+    k_button.style.backgroundColor = "none;"
+    k_button.style.Color = "#5FCF7F"
     h_button.style.display="block";
 
   

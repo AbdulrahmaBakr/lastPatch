@@ -49,8 +49,8 @@ black();
   } else {
     // hide btn login
     var b_button = document.getElementById('LOOPER');
-    var k_button = document.getElementById('niGGa');
-    var h_button = document.getElementById('PooP');
+    var k_button = document.getElementById('wText');
+    var h_button = document.getElementById('crsList');
     document.getElementById('logoutBtn').style.display="block";
     if(document.getElementById('letsGo') != null){
       document.getElementById('letsGo').style.display="none"; }

@@ -1,291 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Favicons -->
-    <link href="../assets/img/favicon.png" rel="icon" />
-    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicons -->
+  <link href="../assets/img/favicon.png" rel="icon" />
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-    <!-- Vendor CSS Files -->
-    <link href="../assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
-    <link href="../assets/vendor/aos/aos.css" rel="stylesheet" />
-    <link
-      href="../assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="../assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-    <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
-    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet" />
 
-    <!-- Template Main CSS File -->
-    <link rel="stylesheet" href="../assets/css/login.css" />
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="../assets/css/login.css" />
   <link rel="stylesheet" href="../assets/css/style.css" />
   <!-- <link rel="stylesheet" href="../assets/css/ours.css" /> -->
 
-    <title>Login</title>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        font-family: 'Poppin, Sans-serif';
-        box-sizing: border-box;
-      }
-      #header {
-        display: flex;
-      }
-      .formContainer {
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .main-container {
-        width: 90%;
-        margin: auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-      }
-      form {
-        width: 60%;
-        height: 70vh;
-        padding: 25px;
-        margin: 20vh auto 20vh auto;
-        border-radius: 4px;
-        background-color: #5fcf80;
-        font-size: 25px;
-      }
-      #form h1 {
-        color: #0f2027;
-        text-align: center;
-      }
-      form button {
-        padding: 20px;
-        margin-top: 20px auto;
-        width: 100%;
-        border: none;
-        border-radius: 25px;
-        background-color: #444444;
-        color: white;
-        cursor: pointer;
-        font-size: 24px;
-      }
-      #signupBtn {
-        margin: 20px auto;
-        font-size: 16px;
-        background-color: #444;
-      }
-      #login {
-        margin-top: 25px;
-      }
-      
-      .box {
-        display: flex;
-        flex-direction: column;
-      }
-      label {
-        font-size: 20px;
-      }
-      input {
-        padding: 15px;
-        border-radius: 25px;
-        margin-bottom: 20px;
-        width: 100%;
-        font-size: 16px;
-        border: none;
-      }
-      .error {
-        color: red;
-        font-size: 10px;
-        height: 15px;
-      }
-      input:focus {
-        outline: 0;
-      }
-      .success input {
-        border: 1px solid #09c372;
-      }
-      .error input {
-        border: 1px solid ff3860;
-      }
-      .link {
-        text-align: center;
-        padding: 15px;
-      }
-    </style>
-  </head>
+  <title>Login</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppin, Sans-serif';
+      box-sizing: border-box;
+    }
 
-  <body>
-    <header id="header" class="fixed-top">
-      <div class="main-container">
-        <h1 class="logo me-auto"><a href="../index.html">MASA-LEARN</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+    #header {
+      display: flex;
+    }
 
-        <nav id="navbar" class="navbar order-last order-lg-0">
-          <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../about.html">About</a></li>
-            <li><a href="../courses.html">Courses</a></li>
-            <li><a href="../trainers.html">Stuff</a></li>
-            <li><a href="../Tracks.html">Tracks</a></li>
-            <li><a href="../contact.html" class="mx-auto">Subjects</a></li>
-            <li style="display: none"><a href="../pricing.html">Pricing</a></li>
+    .formContainer {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
-            <li id="crsList" style="display: none" class="dropdown">
-              <a href="#"
-                ><span>My Courses</span> <i class="bi bi-chevron-down"></i
-              ></a>
-              <ul>
-                <li><a href="../contact.html">JavaScript</a></li>
-                <li><a href="../contact.html">Python</a></li>
-                <li><a href="../contact.html">jquery</a></li>
-              </ul>
-            </li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
-      </div>
-    </header>
-    <!-- .navbar -->
+    .main-container {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
 
-    <div class="formContainer">
-      <form action="" id="form">
-        <div class="box">
-          <h1>Login</h1>
-          <!-- <label for="username">Username:</label> -->
-          <input
-            id="username"
-            name="username"
-            type="text"
-            placeholder="Enter your name"
-          />
-          <!-- <label for="password">Password:</label> -->
-          <input
-            id="password"
-            name="password"
-            type="password"
-            placeholder="Enter your password"
-          />
-          <button type="submit" id="login">Login</button>
-          <a href="./signup.html" id="signupBtn"> Create an account.</a>
-        </div>
-      </form>
+    form {
+      width: 60%;
+      height: 70vh;
+      padding: 25px;
+      margin: 20vh auto 20vh auto;
+      border-radius: 4px;
+      background-color: #5fcf80;
+      font-size: 25px;
+    }
+
+    #form h1 {
+      color: #0f2027;
+      text-align: center;
+    }
+
+    form button {
+      padding: 20px;
+      margin-top: 20px auto;
+      width: 100%;
+      border: none;
+      border-radius: 25px;
+      background-color: #444444;
+      color: white;
+      cursor: pointer;
+      font-size: 24px;
+    }
+
+    #signupBtn {
+      margin: 20px auto;
+      font-size: 16px;
+      background-color: #444;
+    }
+
+    #login {
+      margin-top: 25px;
+    }
+
+    .box {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      font-size: 20px;
+    }
+
+    input {
+      padding: 15px;
+      border-radius: 25px;
+      margin-bottom: 20px;
+      width: 100%;
+      font-size: 16px;
+      border: none;
+    }
+
+    .error {
+      color: red;
+      font-size: 10px;
+      height: 15px;
+    }
+
+    input:focus {
+      outline: 0;
+    }
+
+    .success input {
+      border: 1px solid #09c372;
+    }
+
+    .error input {
+      border: 1px solid ff3860;
+    }
+
+    .link {
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <header id="header" class="fixed-top">
+    <div class="main-container">
+      <h1 class="logo me-auto"><a href="../index.html">MASA-LEARN</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../courses.html">Courses</a></li>
+          <li><a href="../trainers.html">Stuff</a></li>
+          <li><a href="../Tracks.html">Tracks</a></li>
+          <li><a href="../contact.html" class="mx-auto">Subjects</a></li>
+          <li style="display: none"><a href="../pricing.html">Pricing</a></li>
+
+          <li id="crsList" style="display: none" class="dropdown">
+            <a href="#"><span>My Courses</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="../contact.html">JavaScript</a></li>
+              <li><a href="../contact.html">Python</a></li>
+              <li><a href="../contact.html">jquery</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
     </div>
+  </header>
+  <!-- .navbar -->
 
-    <script>
-      const login = document.getElementById('login');
-      login.onclick = (e) => {
-        e.preventDefault();
+  <div class="formContainer">
+    <form action="" id="form">
+      <div class="box">
+        <h1>Login</h1>
+        <!-- <label for="username">Username:</label> -->
+        <input id="LogUsername" name="username" type="text" placeholder="Enter your name" />
+        <!-- <label for="password">Password:</label> -->
+        <input id="LogPassword" name="password" type="password" placeholder="Enter your password" />
+        <button type="submit" id="login">Login</button>
+        <a href="./signup.html" id="signupBtn"> Create an account.</a>
+      </div>
+    </form>
+  </div>
 
-        const usernameAddress = document.getElementById('username').value;
-        const passwordAddress = document.getElementById('password').value;
+  <script>
+    let login = document.getElementById('login');
+    login.onclick = (e) => {
+      e.preventDefault();
 
-        const getUser = localStorage.getItem('Username');
-        const getPass = localStorage.getItem('Password');
+      let usernameAddress = document.getElementById('LogUsername').value;
+      let passwordAddress = document.getElementById('LogPassword').value;
 
-        if (usernameAddress == '' && passwordAddress == '') {
-          alert('Input field has no value');
+      let getUser = localStorage.getItem('username');
+      let getPass = localStorage.getItem('passwordValue');
+
+      if (usernameAddress == '' && passwordAddress == '') {
+        alert('Input field has no value');
+      } else {
+        if (usernameAddress == getUser && passwordAddress == getPass) {
+          localStorage.setItem('isLoggedInnn', 1);
+          console.log('checkedddddddd')
+          alert(`Login successfull, hi ${usernameAddress}`);
+          window.location.href = "../index.html"
         } else {
-          if (usernameAddress == getUser && passwordAddress == getPass) {
-            alert(`Login successfull, hi ${usernameAddress}`);
-            window.location.href="../index.html"
-          } else {
-            alert('Something is wrong');
-          }
+          alert('Something is wrong');
         }
-      };
-    </script>
- <!-- ======= Footer ======= -->
- <footer id="footer">
+      }
+    };
+  </script>
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
 
-  <div class="footer-top">
-    <div class="container">
-      <div class="row">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
 
-        <div class="col-lg-3 col-md-6 footer-contact">
-          <h3>MASA-Learn</h3>
-          <p>
-            ITI  <br>
-            Asyut-Egypt<br>
-             <br><br>
-            <strong>Phone:</strong> +1 5589 55488 55<br>
-            <strong>Email:</strong> info@example.com<br>
-          </p>
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>MASA-Learn</h3>
+            <p>
+              ITI <br>
+              Asyut-Egypt<br>
+              <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+
+
+          </div>
         </div>
+      </div>
 
-        <div class="col-lg-2 col-md-6 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-          </ul>
+      <div class="container d-md-flex py-4">
+
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>MASA-Learn</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+
+            Designed by <a href="#">Student- ITI Assuit </a>
+          </div>
         </div>
-
-        <div class="col-lg-3 col-md-6 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-          </ul>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         </div>
-
-        <div class="col-lg-4 col-md-6 footer-newsletter">
-          <h4>Join Our Newsletter</h4>
-          <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-          
-
       </div>
-    </div>
-  </div>
+  </footer>
+  <!-- End Footer -->
 
-  <div class="container d-md-flex py-4">
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="../assets/js/main.js"></script>
+</body>
 
-    <div class="me-md-auto text-center text-md-start">
-      <div class="copyright">
-        &copy; Copyright <strong><span>MASA-Learn</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-      
-        Designed by <a href="#">Student- ITI Assuit </a>
-      </div>
-    </div>
-    <div class="social-links text-center text-md-right pt-3 pt-md-0">
-      <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-      <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-      <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-      <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-      <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-    </div>
-  </div>
-</footer>
-<!-- End Footer -->
-
-<!-- Vendor JS Files -->
-<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-<script src="assets/vendor/aos/aos.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script>
-<script src="../assets/js/main.js"></script>
-  </body>
 </html>

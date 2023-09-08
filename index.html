@@ -29,6 +29,13 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <script>
+    if(localStorage.length == 0 )
+    {
+      window.localStorage.setItem('isLoggedInnn', 0);
+    }
+  </script>
+
   <style>
     .offcanvas{
      width:40% !important;
@@ -110,7 +117,7 @@
                 <h1>Login</h1>
                 <!-- <lEmailabel for="username">Username:</lEmailabel> -->
                 <input
-                  id="username"
+                  id="canUsername"
                   name="username"
                   type="text"
                   placeholder="Enter User Name"
@@ -119,7 +126,7 @@
               <div class="box">
                 <!-- <label for="password">Password:</label> -->
                 <input
-                  id="password"
+                  id="CanPassword"
                   name="password"
                   type="password"
                   placeholder="Enter Passworddddd"
@@ -162,7 +169,7 @@
       <!-- SignUp Offcanvas -->
     
       <!-- <button type="button" href="./forms/signup.html" class="btn-get-started" style="display: flex;" id="ShiiT">Get Started</button><br> -->
-      <a href="./forms/signup.html" class="btn-get-started " style="display: flex; width: 30rem;" id="ShiiT">Get Started</a>
+      <a href="./forms/signup.html" class="btn-get-started " style="display: flex; width: 30rem;" id="Greeting">Get Started</a>
       <h2 id="letsGo" class="alert alert-dark w-50 text-bg-secondary" style="display:none;" ></h2>
       <!-- end Offcanvas -->
     </div>

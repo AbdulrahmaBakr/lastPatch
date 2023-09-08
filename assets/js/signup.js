@@ -53,6 +53,8 @@ function validateInputs() {
     localStorage.setItem('emailValue', emailValue);
     localStorage.setItem('passwordValue', passwordValue);
     localStorage.setItem('password2Value', password2Value);
+    localStorage.setItem('isLoggedInnn', 0);
+
     window.location.href = '../index.html';
   }
 

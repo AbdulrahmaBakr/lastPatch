@@ -54,7 +54,7 @@ var k_button = document.getElementById('wText');
 var h_button = document.getElementById('crsList');
 document.getElementById('logoutBtn').style.display="none";
 if(document.getElementById('Greeting') != null){
-  document.getElementById('Greeting').style.display="none"; }
+  document.getElementById('Greeting').style.display="block"; }
 if(document.getElementById('letsGo') != null){
   document.getElementById('letsGo').innerHTML="Keep GOING !!! You are the Best "+localStorage.getItem("username");
   document.getElementById('letsGo').style.display="none"}
@@ -80,7 +80,7 @@ else if(localStorage.getItem("isLoggedInnn") == 1 ) {
       document.getElementById('letsGo').style.display="none"; }
     if(document.getElementById('Greeting') != null){
       document.getElementById('Greeting').innerHTML="Keep GOING !!! You are the Best "+localStorage.getItem("username");
-      document.getElementById('Greeting').style.display="none"}
+      document.getElementById('Greeting').style.display="block"}
     //b_button.innerHTML = 'Logout';
     //b_button.setAttribute('type', 'button');
    // b_button.setAttribute('class', 'btn btn-primary');

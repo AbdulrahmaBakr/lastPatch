@@ -17,7 +17,7 @@
 }
 
 .signBtn {
-  padding: 20px;
+  padding: 10px;
   width: 70%;
   color: white;
   background-color: #444;
@@ -28,11 +28,11 @@
 }
 #signupBtn {
   width: 100%;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 #loginBtn {
   margin: 20px auto;
-  font-size: 16px;
+  font-weight: 100;
 }
 
 .input-control {

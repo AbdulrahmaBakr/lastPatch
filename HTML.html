@@ -35,228 +35,214 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
- 
+
 </head>
 
 <body>
- <!-- ======= Header ======= -->
- <header id="header" class="fixed-top">
-  <div class="container d-flex align-items-center">
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
 
-    <h1 class="logo me-auto"><img class="img-fluid p-1 w-20" src="assets/img/favicon_io/android-chrome-192x192.png " ><a href="index.html">MASA-LEARN</a></h1>
-    <!-- Uncomment below if you prefer to use an image logo -->
-    <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <h1 class="logo me-auto"><img class="img-fluid p-1 w-20"
+          src="assets/img/favicon_io/android-chrome-192x192.png "><a href="index.html">MASA-LEARN</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-    <nav id="navbar" class="navbar order-last order-lg-0">
-      <ul>
-        <li class=" nav-item " ><a  href="index.html">Home</a></li>
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li class=" nav-item "><a href="index.html">Home</a></li>
           <li class=" nav-item"><a class="active" href="courses.html">Courses</a></li>
           <li class=" nav-item"><a href="trainers.html">Trainers</a></li>
           <li class=" nav-item"><a href="Tracks.html">Tracks</a></li>
           <li class=" nav-item"><a href="about.html">About</a></li>
 
-        <li id="crsList" style="display: none;" class="dropdown"><a href="#"><span>My Courses</span> <i class="bi bi-chevron-down"></i></a>
-          <ul>
-            <li><a href="contact.html" class="active">JavaScript</a></li>
-            <li><a href="Python.html">Python</a></li>
-            <li><a href="C++.html">C++</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="index.html" style="display: none;" id="logoutBtn">Logout</a>
-        </li>
-       
-      </ul>
-      <i class="bi bi-list mobile-nav-toggle"></i>
-    </nav><!-- .navbar -->
+          <li id="crsList" style="display: none;" class="dropdown"><a href="#"><span>My Courses</span> <i
+                class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="contact.html" class="active">JavaScript</a></li>
+              <li><a href="Python.html">Python</a></li>
+              <li><a href="C++.html">C++</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="index.html" style="display: none;" id="logoutBtn">Logout</a>
+          </li>
+
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
 
       <!-- Canvass login -->
       <!-- <a href="./forms/signup.html" class="get-started-btn">Get Started</a> -->
-      <a
-        href="#offcanvasRight"
-        class="btn get-started-btn fs-5 mx-4"
-        data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasRight"
-        aria-controls="offcanvasRight"
-        id="LOOPER"
-       
-      >
+      <a href="#offcanvasRight" class="btn get-started-btn fs-5 mx-4" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" id="LOOPER">
         Login
       </a>
       <h3 id="wText" class="badge p-1 fs-5 mx-4 m-2 " style="display: none;background-color: #5fcf80; ">Welcome</h3>
     </div>
 
-    <div
-      class="offcanvas offcanvas-end"
-      tabindex="-1"
-      id="offcanvasRight"
-      aria-labelledby="offcanvasRightLabel"
-    >
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
       <div class="offcanvas-header">
         <h5 id="offcanvasRightLabel">
           <img src="assets/img/favicon_io/favicon-32x32.png" alt="" />
         </h5>
-        <button
-          type="button"
-          class="btn-close text-reset"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"
-        ></button>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
-       
+
         <div class="canvassContainer">
           <form action="" id="loginform" class="p-4">
             <div class="box">
               <h1>Login</h1>
               <!-- <lEmailabel for="username">Username:</lEmailabel> -->
-              <input
-                id="username"
-                name="username"
-                type="text"
-                placeholder="Enter User Name"
-              />
+              <input id="username" name="username" type="text" placeholder="Enter User Name" />
             </div>
             <div class="box">
               <!-- <label for="password">Password:</label> -->
-              <input
-                id="password"
-                name="password"
-                type="password"
-                placeholder="Enter Password"
-              />
+              <input id="password" name="password" type="password" placeholder="Enter Password" />
             </div>
             <a href="./index.html" type="submit" id="login">Login</a>
             <div class="link">
-              <a class="btn get-started-btn fs-4" id="already"  href="#offcanvasExample" data-bs-toggle="offcanvas" aria-controls="offcanvasExample">Don't Have Account !!</a>
+              <a class="btn get-started-btn fs-4" id="already" href="#offcanvasExample" data-bs-toggle="offcanvas"
+                aria-controls="offcanvasExample">Don't Have Account !!</a>
             </div>
-            </div>
-          </form>
         </div>
+        </form>
       </div>
     </div>
+    </div>
     <!-- end Canvas  -->
-   
-    
 
+
+
+    </div>
+  </header><!-- End Header -->
+  <!-- start LOGIN -->
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+
+    </div>
   </div>
-</header><!-- End Header -->
-<!-- start LOGIN -->
 
-<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-  <div class="offcanvas-header">
-    <h5 id="offcanvasRightLabel">Offcanvas right</h5>
-    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body">
-    
-  </div>
-</div>
+  <!-- end login -->
 
-<!-- end login -->
 
-  
 
   <main id="main">
 
 
     <!-- ======= Cards ======= -->
 
- 
+
 
     <section class="section justify-content-center m-4">
-      <div style="width: 70%; margin: auto;" class="card justify-content-center text-bg-success " data-aos="fade-right" >
+      <div style="width: 70%; margin: auto;" class="card justify-content-center text-bg-success " data-aos="fade-right">
         <div class="card-header">
-          <span><img style=" width:5%;" class="p-2" src="logos/html.svg" /></span><span class="font-weight-bold" style="font-size: x-large;">Html 5</span></div>
+          <span><img style=" width:5%;" class="p-2" src="logos/html.svg" /></span><span class="font-weight-bold"
+            style="font-size: x-large;">Html 5</span>
+        </div>
         <div class="card-body ">
-          
+
           <h5 class="card-title">Introduction to Html 5</h5>
-      
-          <p class="card-text">This FREE course will teach you how to design a web page using HTML. Complete a series of hands-on exercises and practice while writing real HTML code.
+
+          <p class="card-text">This FREE course will teach you how to design a web page using HTML. Complete a series of
+            hands-on exercises and practice while writing real HTML code.
         </div>
       </div>
       <div class="container d-flex justify-content-center">
 
         <div class="panelS m-5 ">
-          <div class="card  d-flex justify-content-center m-2 p-3 " data-aos="zoom-in-up" >
-            
-            <a class="btn btn-outline-secondary" data-bs-toggle="collapse" href="#collapse1" role="button"
-              aria-expanded="false" aria-controls="collapseExample"  > Learn</a>
-               <div class="collapse" id="collapse1">
-                <div class="card card-body">
-                  Some placeholder content for the collapse component. This panel is hidden by default but revealed
-                  when the
-                  user activates the relevant trigger.
-                </div>
-                </div>
+          <div class="card  d-flex justify-content-center m-2 p-3 " data-aos="zoom-in-up">
+
+            <a class="btn btn-outline-success" data-bs-toggle="collapse" href="#collapse1" role="button"
+              aria-expanded="false" aria-controls="collapseExample">
+              <p>Lesson 1</p> Welcome to HTML!
+            </a>
+            <div class="collapse" id="collapse1">
+              <div class="card card-body">
+                HTML is at the core of every web page. Behind every web page you've ever visited there is HTML code that
+                your web browser uses to display elements like text, images and tables.
+
+
+              </div>
+            </div>
             <div class="collapse" id="collapse1">
 
               <div class="card card-body">
 
                 <br><br>
-             
-                
-                <a class="btn btn-success justify-content-center btn-sm startCourse  "style="width: 30rem;  margin-left: auto;margin-right: auto;" data-bs-toggle="modal"
-                  href="#exampleModalCenter" role="button" aria-expanded="false" aria-controls="collapseExample"
-                   >Start course</a>
-              </div>
-            </div>
-          
-           <hr>
-           <!-- <div class="card"> -->
-            <a class="btn btn-outline-secondary " data-bs-toggle="collapse" href="#collapse2" role="button"
-              aria-expanded="false" aria-controls="collapseExample" >Learn</a>
-            <div class="collapse" id="collapse2">
-              <div class="card card-body">
-                Some placeholder content for the collapse component. This panel is hidden by default but revealed
-                when the
-                user activates the relevant trigger.
-              </div>
-            </div>
-            <div class="collapse" id="collapse2">
 
-              <div class="card card-body">
 
-                <br><br>
-             
-                
-                <a class="btn btn-success justify-content-center btn-sm startCourse  "style="width: 30rem;  margin-left: auto;margin-right: auto;" data-bs-toggle="modal"
-                  href="#exampleModalCenter" role="button" aria-expanded="false" aria-controls="collapseExample"
-                   >Start course</a>
+                <a class="btn btn-success justify-content-center btn-sm startCourse  "
+                  style="width: 30rem;  margin-left: auto;margin-right: auto;" data-bs-toggle="modal"
+                  href="#exampleModalCenter" role="button" aria-expanded="false" aria-controls="collapseExample">Start
+                  course</a>
               </div>
             </div>
-           <hr>
-           <!-- <div class="card"> -->
-            <a class="btn btn-outline-secondary" data-bs-toggle="collapse" href="#collapse3" role="button"
-              aria-expanded="false" aria-controls="collapseExample">Learn</a>
-            <div class="collapse" id="collapse3">
-              <div class="card card-body">
-                Some placeholder content for the collapse component. This panel is hidden by default but revealed
-                when the
-                user activates the relevant trigger.
-              </div>
-            </div>
-            <div class="collapse" id="collapse3">
 
-              <div class="card card-body">
-
-                <br><br>
-             
-                
-                <a class="btn btn-success justify-content-center btn-sm startCourse  "style="width: 30rem;  margin-left: auto;margin-right: auto;" data-bs-toggle="modal"
-                  href="#exampleModalCenter" role="button" aria-expanded="false" aria-controls="collapseExample"
-                   >Start course</a>
-              </div>
-            </div>
-           <hr>
+            <hr>
             <!-- <div class="card"> -->
-            <a class="btn btn-outline-secondary  " data-bs-toggle="collapse" href="#collapse4" role="button"
-              aria-expanded="false" aria-controls="collapseExample">Learn</a>
+            <a class="btn btn-outline-success " data-bs-toggle="collapse" href="#collapse2" role="button"
+              aria-expanded="false" aria-controls="collapseExample">
+              <p>Lesson 2</p>HTML Elements
+            </a>
+            <div class="collapse" id="collapse2">
+              <div class="card card-body">
+                Ready to write, run and test real code? That’s exactly what you’ll do in this lesson. The Code
+                Playground allows you to do all that.
+              </div>
+            </div>
+            <div class="collapse" id="collapse2">
+
+              <div class="card card-body">
+
+                <br><br>
+
+
+                <a class="btn btn-success justify-content-center btn-sm startCourse  "
+                  style="width: 30rem;  margin-left: auto;margin-right: auto;" data-bs-toggle="modal"
+                  href="#exampleModalCenter" role="button" aria-expanded="false" aria-controls="collapseExample">Start
+                  course</a>
+              </div>
+            </div>
+            <hr>
+            <!-- <div class="card"> -->
+            <a class="btn btn-outline-success" data-bs-toggle="collapse" href="#collapse3" role="button"
+              aria-expanded="false" aria-controls="collapseExample">
+              <p>Lesson 3</p>Creating Your First HTML Page
+            </a>
+            <div class="collapse" id="collapse3">
+              <div class="card card-body">
+                HTML files are text files, so you can use any text editor to create your first webpage.
+                There are some very nice HTML editors available; you can choose the one that works for you. For now
+                let's write our examples in Notepad.
+              </div>
+            </div>
+            <div class="collapse" id="collapse3">
+
+              <div class="card card-body">
+
+                <br><br>
+
+
+                <a class="btn btn-success justify-content-center btn-sm startCourse  "
+                  style="width: 30rem;  margin-left: auto;margin-right: auto;" data-bs-toggle="modal"
+                  href="#exampleModalCenter" role="button" aria-expanded="false" aria-controls="collapseExample">Start
+                  course</a>
+              </div>
+            </div>
+            <hr>
+            <!-- <div class="card"> -->
+            <a class="btn btn-outline-success " data-bs-toggle="collapse" href="#collapse4" role="button"
+              aria-expanded="false" aria-controls="collapseExample"><p>Lesson 4</p>Creating a Blog</a>
             <div class="collapse" id="collapse4">
               <div class="card card-body">
-                Some placeholder content for the collapse component. This panel is hidden by default but revealed
-                when the
-                user activates the relevant trigger.
+                Throughout this course, we'll help you practice and create your own unique blog project, so you'll retain what you've learned and be able to put it to use. Just keep going and follow the instructions in the TASK section. This is what your finished blog page will look like.
               </div>
             </div>
             <div class="collapse" id="collapse4">
@@ -264,88 +250,93 @@
               <div class="card card-body">
 
                 <br><br>
-             
-                
-                   </a>
-                   <a class="btn btn-success justify-content-center btn-sm startCourse   "style="width: 30rem;  margin-left: auto;margin-right: auto;" data-bs-toggle="modal"
-                  href="#exampleModalCenter" role="button" aria-expanded="false" aria-controls="collapseExample"
-                   >Start course</a>
+
+
+                </a>
+                <a class="btn btn-success justify-content-center btn-sm startCourse   "
+                  style="width: 30rem;  margin-left: auto;margin-right: auto;" data-bs-toggle="modal"
+                  href="#exampleModalCenter" role="button" aria-expanded="false" aria-controls="collapseExample">Start
+                  course</a>
               </div>
             </div>
           </div>
         </div>
-        </div>
-      
+      </div>
+
     </section>
 
   </main>
 
   <!-- Modals -->
-  <div class="modal fade" data-bs-backdrop='static' id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
+  <div class="modal fade" data-bs-backdrop='static' id="exampleModalCenter" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 
     <div class="modal-dialog modal-dialog-centered  modal-xl  " id="firstModal">
       <div class="modal-content ">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Welcome to JavaScript!</h1>
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Welcome to Html 5</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        
-        <div class="modal-body">
-            <h1 class="title "></h1>
-            <p>Ever visit a website that made you think…"Hey, this website is really cool and interactive"? Well, JavaScript was probably making it happen....
 
-              In this course, we'll learn the basic concepts of JavaScript - one of the most popular programming languages that makes websites dynamic and interactive. With JavaScript, you can also create mobile apps and games, process data, and much more! </p>                 
-            <p class="title ">Video</p>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe style="align-items:center ; align-self: center;" id="video1" width="750" height="350"
-              src="assets/video/Day 2 JS .mp4"
-              frameborder="0" allowfullscreen>
-      </iframe>          
+        <div class="modal-body">
+          <h1 class="title "></h1>
+          <p>Ever visit a website that made you think…"Hey, this website is really cool and interactive"? Well,
+            JavaScript was probably making it happen....
+
+            In this course, we'll learn the basic concepts of JavaScript - one of the most popular programming languages
+            that makes websites dynamic and interactive. With JavaScript, you can also create mobile apps and games,
+            process data, and much more! </p>
+          <p class="title ">Video</p>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe style="align-items:center ; align-self: center;" id="video1" width="750" height="350"
+              src="assets/video/Day 2 JS .mp4" frameborder="0" allowfullscreen>
+            </iframe>
           </div>
         </div>
         <div class="modal-footer">
-          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Countinue</button>
+          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
+            data-bs-toggle="modal">Countinue</button>
         </div>
       </div>
     </div>
   </div>
-  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+    tabindex="-1">
     <div class="modal-dialog  modal-fullscreen" id="bigger">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Questions</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          
+
 
           <section class="quiz-area">
             <div class="questions-counter">
-                <div class="bullets">
-                </div>
-                <div class="result">
-                </div>
-                 
+              <div class="bullets">
+              </div>
+              <div class="result">
+              </div>
+
             </div>
-    
+
             <br><br>
             <div class="quiz-info">
-                <div class="category">Category : <span>HTML</span></div>
-                <div class="count">Question Count : <span class="spa">10</span></div>
+              <div class="category">Category : <span>HTML</span></div>
+              <div class="count">Question Count : <span class="spa">10</span></div>
             </div>
-    
+
             <div class="quiz" id="quizTitle"> </div>
             <div class="answers"></div>
-    
-     
-    
+
+
+
             <div class="sumit-button">
-                <input id type="submit" value="Submit">
+              <input id type="submit" value="Submit">
             </div>
-        </section>
+          </section>
 
-         
+
         </div>
 
 
@@ -353,88 +344,89 @@
 
 
 
-          
-        </div>
-        <div class="modal-footer">
-          <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
-        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to
+          first</button>
       </div>
     </div>
+  </div>
   </div>
   <!-- end modals -->
 
   <!-- End Contact Section -->
 
   <!-- End #main -->
-<!-- ======= Footer ======= -->
-<footer id="footer">
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
 
-  <div class="footer-top">
-    <div class="container">
-      <div class="row">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
 
-        <div class="col-lg-3 col-md-6 footer-contact">
-          <h3>MASA-Learn</h3>
-          <p>
-            ITI  <br>
-            Asyut-Egypt<br>
-             <br><br>
-            <strong>Phone:</strong> +1 5589 55488 55<br>
-            <strong>Email:</strong> info@example.com<br>
-          </p>
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>MASA-Learn</h3>
+            <p>
+              ITI <br>
+              Asyut-Egypt<br>
+              <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Front-End Track</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">JavaScript</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Back-End Track</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Bootstrap</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+
+
+          </div>
         </div>
+      </div>
 
-        <div class="col-lg-2 col-md-6 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-          </ul>
+      <div class="container d-md-flex py-4">
+
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>MASA-Learn</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+
+            Designed by <a href="#">Student- ITI Assuit </a>
+          </div>
         </div>
-
-        <div class="col-lg-3 col-md-6 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-          </ul>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         </div>
-
-        <div class="col-lg-4 col-md-6 footer-newsletter">
-          <h4>Join Our Newsletter</h4>
-          <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-          
-
       </div>
-    </div>
-  </div>
-
-  <div class="container d-md-flex py-4">
-
-    <div class="me-md-auto text-center text-md-start">
-      <div class="copyright">
-        &copy; Copyright <strong><span>MASA-Learn</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-      
-        Designed by <a href="#">Student- ITI Assuit </a>
-      </div>
-    </div>
-    <div class="social-links text-center text-md-right pt-3 pt-md-0">
-      <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-      <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-      <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-      <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-      <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-    </div>
-  </div>
-</footer><!-- End Footer -->
+  </footer><!-- End Footer -->
 
 
 

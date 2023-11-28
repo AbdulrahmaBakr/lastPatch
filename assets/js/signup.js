@@ -55,7 +55,7 @@ function validateInputs() {
     localStorage.setItem('password2Value', password2Value);
     localStorage.setItem('isLoggedInnn', 0);
     alert('success registration')
-    window.location.href = '../index.html';
+    window.location.href = './login.html';
   }
 
   if (usernameValue === '') {

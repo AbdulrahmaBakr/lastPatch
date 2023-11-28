@@ -1,5 +1,6 @@
 var login = document.getElementById('login');
 
+let wrongMsg = document.getElementById("wrongMsg");
 
 //document.onload= localStorage.setItem('isLoggedInnn', "false");
 
@@ -25,7 +26,7 @@ login.onclick = (e) => {
       
      
     } else {
-      alert('Something is wrong');
+      wrongMsg.classList.replace("d-none", "d-block");
     }
   
 };
